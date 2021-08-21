@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&family=Work+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header class="header">
+            <div class="container-fluid">
+                <div class="header__inner" id="header">
+                    <a class="header__logo" href="#">
+                        <img class="header__img" src="images/header/logo.png" alt="header_logo">
+                    </a>
+
+
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__item-why"><a class="header__why-link" href="#">Почему Oneflow??</a></li>
+                            <li class="menu__item-list"><a class="menu__link-item" href="#">изучение</a></li>
+                            <li class="menu__item-list"><a class="menu__link-item" href="#">Ценообразование</a></li>
+                            <li class="menu__item-list"><a class="menu__link-item" href="#">O</a></li>
+                            <li class="menu__item-list"><a class="menu__link-item" href="#">Блог</a></li>
+                            <li class="header__navs">
+                                <a class="header__nav-link" href="#">Получить демо</a>
+                                <a class="header__nav-link" href="#">Авторизоваться</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <a class="header__nav-btn" href="index.html">
+                        <img class="header__icon-globe" src="images/header/globe.svg" alt="globe">
+                    </a>
+
+                    <button class="burger-toggle">
+                        <span class="burger-icon"></span>
+                        <span class="burger-icon"></span>
+                        <span class="burger-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <section class="intro">
+                <div class="container">
+                    <div class="intro__content">
+                        <h1 class="intro__title">Творить чудеса</h1>
+                        <p class="intro__text">Будьте эффективнее со смарт-контрактами, которые ускоряют работу, а жизнь
+                            полегче.</p>
+
+                        <div class="intro__links">
+                            <a class="intro__link" href="#">Получите Oneflow бесплатно</a>
+                            <a class="intro__link" href="#">Совершить экскурсию</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="company">
+                <div class="container">
+                    <div class="company__heading">
+                        <h2 class="company__title">
+                            Присоединяйтесь к этим компаниям, создавая бизнес-поток
+                        </h2>
+
+                        <div class="company__items">
+                            <a class="company__item" href="#">
+                                <img class="company__item-logo" src="images/company/company1.svg" alt="logo company">
+                            </a>
+                            <a class="company__item" href="#">
+                                <img class="company__item-logo" src="images/company/company2.svg" alt="logo company">
+                            </a>
+                            <a class="company__item" href="#">
+                                <img class="company__item-logo" src="images/company/company3.svg" alt="logo company">
+                            </a>
+                            <a class="company__item" href="#">
+                                <img class="company__item-logo" src="images/company/company4.svg" alt="logo company">
+                            </a>
+                            <a class="company__item" href="#">
+                                <img class="company__item-logo" src="images/company/company5.svg" alt="logo company">
+                            </a>
+                            <a class="company__item" href="#">
+                                <img class="company__item-logo" src="images/company/company6.svg" alt="logo company">
+                            </a>
+                            <a class="company__item" href="#">
+                                <img class="company__item-logo" src="images/company/company7.svg" alt="logo company">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="company__smart">
+                        <div class="company__smart-box">
+                            <h2 class="company__box-title">Превратите подписи в смарт-контракты</h2>
+                            <p class="company__box-text">Испытайте настоящую магию контрактов, автоматизируя все
+                                контрактный процесс - от создания до подписания и управления.</p>
+                            <a class="company__box-link" href="#">Ознакомьтесь с нашим обзором продуктов</a>
+                        </div>
+                        <div class="company__smart-img">
+                            <img class="company__smart-photo" src="images/company/right-img.jpg" alt="right img">
+                        </div>
+                    </div>
+
+                    <div class="tabs">
+                        <div class="tabs__list">
+                            <button class="tabs__list-btn active" type="button" data-tab="#tab_1">Создавать</button>
+                            <button class="tabs__list-btn" type="button" data-tab="#tab_2">Сотрудничать</button>
+                            <button class="tabs__list-btn" type="button" data-tab="#tab_3">Подписать</button>
+                            <button class="tabs__list-btn" type="button" data-tab="#tab_4">Управлять</button>
+                            <button class="tabs__list-btn" type="button" data-tab="#tab_5">Анализировать</button>
+                            <button class="tabs__list-btn" type="button" data-tab="#tab_6">Интегрировать</button>
+                        </div>
+
+                        <div class="tabs__content">
+                            <div class="tabs__item active" id="tab_1">
+                                <div class="tabs__item-content">
+                                    <div class="tabs__item-box">
+                                        <h2 class="tabs__item-title">Сотрудничать</h2>
+                                        <p class="tabs__item-text">Работайте вместе над одной версией в режиме реального
+                                            времени. Нет фокуса
+                                            покус.
+                                        </p>
+                                        <ul class="tabs__items-list">
+                                            <li class="tabs__item-list">Редактировать в прямом эфире</li>
+                                            <li class="tabs__item-list">Сделайте поля интерактивными</li>
+                                            <li class="tabs__item-list">Оставайся на шаг впереди</li>
+                                        </ul>
+                                        <a class="tabs__item-links" href="#">Учить больше</a>
+                                    </div>
+                                    <div class="tabs__right-img">
+                                        <img class="tabs__right-photo" src="images/tabs/right.png" alt="rigth photo">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tabs__item" id="tab_2">
+                                <div class="tabs__item-content">
+                                    <div class="tabs__item-box">
+                                        <h2 class="tabs__item-title">Сотрудничать</h2>
+                                        <p class="tabs__item-text">Работайте вместе над одной версией в режиме реального
+                                            времени. Нет фокуса
+                                            покус.
+                                        </p>
+                                        <ul class="tabs__items-list">
+                                            <li class="tabs__item-list">Редактировать в прямом эфире</li>
+                                            <li class="tabs__item-list">Сделайте поля интерактивными</li>
+                                            <li class="tabs__item-list">Будьте на шаг впереди</li>
+                                        </ul>
+                                        <a class="tabs__item-links" href="#">Учить больше</a>
+                                    </div>
+                                    <div class="tabs__right-img">
+                                        <img class="tabs__right-photo" src="images/tabs/right.png" alt="rigth photo">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tabs__item" id="tab_3">
+                                <div class="tabs__item-content">
+                                    <div class="tabs__item-box">
+                                        <h2 class="tabs__item-title">Подписать</h2>
+                                        <p class="tabs__item-text">Работайте вместе над одной версией в режиме реального
+                                            времени. Нет фокуса
+                                            покус.
+                                        </p>
+                                        <ul class="tabs__items-list">
+                                            <li class="tabs__item-list">Редактировать в прямом эфире</li>
+                                            <li class="tabs__item-list">Сделайте поля интерактивными</li>
+                                            <li class="tabs__item-list">Будьте на шаг впереди</li>
+                                        </ul>
+                                        <a class="tabs__item-links" href="#">Учить больше</a>
+                                    </div>
+                                    <div class="tabs__right-img">
+                                        <img class="tabs__right-photo" src="images/tabs/right.png" alt="rigth photo">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tabs__item" id="tab_4">
+                                <div class="tabs__item-content">
+                                    <div class="tabs__item-box">
+                                        <h2 class="tabs__item-title">Управлять</h2>
+                                        <p class="tabs__item-text">Работайте вместе над одной версией в режиме реального
+                                            времени. Нет фокуса
+                                            покус.
+                                        </p>
+                                        <ul class="tabs__items-list">
+                                            <li class="tabs__item-list">Редактировать в прямом эфире</li>
+                                            <li class="tabs__item-list">Сделайте поля интерактивными</li>
+                                            <li class="tabs__item-list">Будьте на шаг впереди</li>
+                                        </ul>
+                                        <a class="tabs__item-links" href="#">Учить больше</a>
+                                    </div>
+                                    <div class="tabs__right-img">
+                                        <img class="tabs__right-photo" src="images/tabs/right.png" alt="rigth photo">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tabs__item" id="tab_5">
+                                <div class="tabs__item-content">
+                                    <div class="tabs__item-box">
+                                        <h2 class="tabs__item-title">Анализировать</h2>
+                                        <p class="tabs__item-text">Работайте вместе над одной версией в режиме реального
+                                            времени. Нет фокуса
+                                            покус.
+                                        </p>
+                                        <ul class="tabs__items-list">
+                                            <li class="tabs__item-list">Редактировать в прямом эфире</li>
+                                            <li class="tabs__item-list">Сделайте поля интерактивными</li>
+                                            <li class="tabs__item-list">Будьте на шаг впереди</li>
+                                        </ul>
+                                        <a class="tabs__item-links" href="#">Учить больше</a>
+                                    </div>
+                                    <div class="tabs__right-img">
+                                        <img class="tabs__right-photo" src="images/tabs/right.png" alt="rigth photo">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tabs__item" id="tab_6">
+                                <div class="tabs__item-content">
+                                    <div class="tabs__item-box">
+                                        <h2 class="tabs__item-title">Интегрировать</h2>
+                                        <p class="tabs__item-text">Работайте вместе над одной версией в режиме реального
+                                            времени. Нет фокуса
+                                            покус.
+                                        </p>
+                                        <ul class="tabs__items-list">
+                                            <li class="tabs__item-list">Редактировать в прямом эфире</li>
+                                            <li class="tabs__item-list">Сделайте поля интерактивными</li>
+                                            <li class="tabs__item-list">Будьте на шаг впереди</li>
+                                        </ul>
+                                        <a class="tabs__item-links" href="#">Учить больше</a>
+                                    </div>
+                                    <div class="tabs__right-img">
+                                        <img class="tabs__right-photo" src="images/tabs/right.png" alt="rigth photo">
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <!-- tabs content end -->
+                    </div> <!-- tabs end -->
+
+                </div> <!-- container -->
+            </section>
+
+
+            <div class="fancybox">
+                <a class="fancybox__video" data-fancybox href="https://youtu.be/fwfjsDsMuz8">
+                    <img class="fancybox__play" src="images/fancy/play.svg" alt="icon play">
+                </a>
+            </div>
+
+
+            <section class="about">
+                <div class="container">
+                    <h2 class="about__title">Полная платформа для смарт-контрактов</h2>
+                    <div class="about__inner">
+                        <div class="about__inner-box">
+                            <img class="about__inner-photo" src="images/about/icon1.svg" alt="box icon">
+                            <h3 class="about__inner-title">Забудьте о трении</h3>
+                            <p class="about__inner-text">Испытайте по-настоящему цифровой контрактный процесс, который
+                                делает
+                                создание, подписание и управление соглашениями быстро, плавно и
+                                легко. Контракты без обмана.</p>
+                            <a class="about__inner-link" href="#">Взять тур</a>
+                        </div>
+
+                        <div class="about__inner-box">
+                            <img class="about__inner-photo" src="images/about/icon2.svg" alt="box icon">
+                            <h3 class="about__inner-title">Раскрыть данные</h3>
+                            <p class="about__inner-text">Станьте быстрее и умнее с автоматизированными процессами и
+                                интеллектуальными
+                                идеи, которые открывают доступ к данным в ваших соглашениях.
+                                Оставьте позади ограничения бумаги и PDF-файлов. Просто так.</p>
+                            <a class="about__inner-link" href="#">Взять тур</a>
+                        </div>
+
+                        <div class="about__inner-box">
+                            <img class="about__inner-photo" src="images/about/icon3.svg" alt="box icon">
+                            <h3 class="about__inner-title">Взять под контроль</h3>
+                            <p class="about__inner-text">Испытайте по-настоящему цифровой контрактный процесс, который
+                                делает
+                                создание, подписание и управление соглашениями быстро, плавно и
+                                легко. Контракты без обмана.</p>
+                            <a class="about__inner-link" href="#">Взять тур</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="sport">
+                <div class="container">
+                    <div class="sport__content">
+                        <h2 class="sport__content-title">Верь своим глазам</h2>
+                        <p class="sport__content-text">Позвольте нам показать вам, как работать эффективнее с
+                            контрактами в Oneflow.
+                        </p>
+                        <a class="sport__content-link" href="#">Получить демо</a>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="slider">
+                <div class="container">
+                    <h2 class="slider__title">Не верьте нам на слово ...</h2>
+
+                    <div class="swiper-container">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper swiper__wrapper-main ">
+                            <!-- Slides -->
+                            <div class="swiper-slide swiper__box-slide">
+                                <div class="swiper__box-body">
+                                    <p class="swiper__body-text">“С Oneflow мне удалось сократить время
+                                        на админа потрачено значительно. Каждый час, который я тратил на админа,
+                                        теперь можно потратить на продажу и закрытие!”</p>
+                                    <a class="swiper__body-link" href="#">Прочитать всю историю</a>
+                                    <a class="swiper__body-author" href="#">
+                                        <img class="swiper__body-photo" alt="photo" src="images/slider/icon1.svg">
+                                        <div class="swiper__body-name">
+                                            <p>Маттиас Джонсон</p>
+                                            <p>Менеджер по работе с ключевыми клиентами</p>
+                                            <p>Sweco</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide swiper__box-slide">
+                                <div class="swiper__box-body">
+                                    <p class="swiper__body-text">“С Oneflow мне удалось сократить время
+                                        на админа потрачено значительно. Каждый час, который я тратил на админа,
+                                        теперь можно потратить на продажу и закрытие!”</p>
+                                    <a class="swiper__body-link" href="#">Прочитать всю историю</a>
+                                    <a class="swiper__body-author" href="#">
+                                        <img class="swiper__body-photo" alt="photo" src="images/slider/icon3.svg">
+                                        <div class="swiper__body-name">
+                                            <p>Маттиас Джонсон</p>
+                                            <p>Менеджер по работе с ключевыми клиентами</p>
+                                            <p>Sweco</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide swiper__box-slide">
+                                <div class="swiper__box-body">
+                                    <p class="swiper__body-text">“С Oneflow мне удалось сократить время
+                                        на админа потрачено значительно. Каждый час, который я тратил на админа,
+                                        теперь можно потратить на продажу и закрытие!”</p>
+                                    <a class="swiper__body-link" href="#">Прочитать всю историю</a>
+                                    <a class="swiper__body-author" href="#">
+                                        <img class="swiper__body-photo" alt="photo" src="images/slider/icon2.svg">
+                                        <div class="swiper__body-name">
+                                            <p>Маттиас Джонсон</p>
+                                            <p>Менеджер по работе с ключевыми клиентами</p>
+                                            <p>Sweco</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide swiper__box-slide">
+                                <div class="swiper__box-body">
+                                    <p class="swiper__body-text">“С Oneflow мне удалось сократить время
+                                        на админа потрачено значительно. Каждый час, который я тратил на админа,
+                                        теперь можно потратить на продажу и закрытие!”</p>
+                                    <a class="swiper__body-link" href="#">Прочитать всю историю</a>
+                                    <a class="swiper__body-author" href="#">
+                                        <img class="swiper__body-photo" alt="photo" src="images/slider/icon1.svg">
+                                        <div class="swiper__body-name">
+                                            <p>Маттиас Джонсон</p>
+                                            <p>Менеджер по работе с ключевыми клиентами</p>
+                                            <p>Sweco</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide swiper__box-slide">
+                                <div class="swiper__box-body">
+                                    <p class="swiper__body-text">“С Oneflow мне удалось сократить время
+                                        на админа потрачено значительно. Каждый час, который я тратил на админа,
+                                        теперь можно потратить на продажу и закрытие!”</p>
+                                    <a class="swiper__body-link" href="#">Прочитать всю историю</a>
+                                    <a class="swiper__body-author" href="#">
+                                        <img class="swiper__body-photo" alt="photo" src="images/slider/icon2.svg">
+                                        <div class="swiper__body-name">
+                                            <p>Маттиас Джонсон</p>
+                                            <p>Менеджер по работе с ключевыми клиентами</p>
+                                            <p>Sweco</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide swiper__box-slide">
+                                <div class="swiper__box-body">
+                                    <p class="swiper__body-text">“С Oneflow мне удалось сократить время
+                                        на админа потрачено значительно. Каждый час, который я тратил на админа,
+                                        теперь можно потратить на продажу и закрытие!”</p>
+                                    <a class="swiper__body-link" href="#">Прочитать всю историю</a>
+                                    <a class="swiper__body-author" href="#">
+                                        <img class="swiper__body-photo" alt="photo" src="images/slider/icon3.svg">
+                                        <div class="swiper__body-name">
+                                            <p>Маттиас Джонсон</p>
+                                            <p>Менеджер по работе с ключевыми клиентами</p>
+                                            <p>Sweco</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+
+                        <!-- If we need scrollbar -->
+                        <div class="swiper-scrollbar"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="plan">
+                <div class="container">
+                    <div class="plan__inner">
+                        <div class="plan__col">
+                            <h2 class="plan__col-title">Бесшовная интеграция</h2>
+                            <p class="plan__col-text">Интегрируйте свои любимые инструменты в рабочий процесс и работу
+                                по контракту
+                                чудеса.</p>
+                            <a class="plan__col-link" href="#">Посмотреть все интеграции</a>
+                        </div>
+
+                        <div class="plan__cols">
+                            <div class="plan__col-logotips">
+                                <a class="plan__logo-link" href="#">
+                                    <img class="plan__logo-photo" src="images/grid/left-icon1.svg" alt="icon logo">
+                                </a>
+
+                                <a class="plan__logo-link" href="#">
+                                    <img class="plan__logo-photo" src="images/grid/left-icon2.svg" alt="icon logo">
+                                </a>
+
+                                <a class="plan__logo-link" href="#">
+                                    <img class="plan__logo-photo" src="images/grid/left-icon3.svg" alt="icon logo">
+                                </a>
+                            </div>
+
+                            <div class="plan__logotips-center">
+                                <a class="plan__logo-link" href="#">
+                                    <img class="plan__logo-photo" src="images/grid/center-icon1.svg" alt="icon logo">
+                                </a>
+
+                                <a class="plan__logo-link" href="#">
+                                    <img class="plan__logo-photo" src="images/grid/center-icon2.svg" alt="icon logo">
+                                </a>
+
+                                <a class="plan__logo-link" href="#">
+                                    <img class="plan__logo-photo" src="images/grid/center-icon3.svg" alt="icon logo">
+                                </a>
+
+                                <a class="plan__logo-link" href="#">
+                                    <img class="plan__logo-photo" src="images/grid/center-icon1.svg" alt="icon logo">
+                                </a>
+                            </div>
+
+                            <div class="plan__col-logotips">
+                                <a class="plan__logo-link" href="#">
+                                    <img class="plan__logo-photo" src="images/grid/right-icon1.svg" alt="icon logo">
+                                </a>
+
+                                <a class="plan__logo-link" href="#">
+                                    <img class="plan__logo-photo" src="images/grid/right-icon2.svg" alt="icon logo">
+                                </a>
+
+                                <a class="plan__logo-link" href="#">
+                                    <img class="plan__logo-photo" src="images/grid/right-icon3.svg" alt="icon logo">
+                                </a>
+                            </div>
+                        </div>
+                    </div> <!-- plan inner -->
+                </div> <!-- container -->
+            </section>
+
+            <section class="phone">
+                <div class="container">
+                    <div class="phone__heading">
+                        <h2 class="phone__heading-title">А для нашего следующего трюка…</h2>
+                        <a class="phone__heading-link" href="#">Посетите наш блог</a>
+                    </div>
+
+                    <div class="phone__inner">
+                        <div class="phone__inner-left">
+                            <a class="phone__box-link" href="#">Статья</a>
+                            <p class="phone__box-text">Базовое руководство по электронным подписям и их юридической
+                                обязательности
+                            </p>
+                            <div class="phone__span-content">
+                                <span class="phone__heading-spn">Электронная подпись</span>
+                                <span class="phone__heading-spn">Читать 11 мин</span>
+                            </div>
+                        </div>
+                        <div class="phone__inner-box">
+                            <img class="phone__inner-img" src="images/tabs/phone.png" alt="phone">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="services">
+                <div class="container">
+                    <div class="services__items">
+                        <div class="services__item">
+                            <img class="services__item-img" src="images/tabs/article.png" alt="article">
+                            <div class="services__item-body">
+                                <a class="services__item-guide" href="#">Руководство</a>
+                                <p class="services__item-text">29 документов, которые вы можете подписать онлайн в 2021
+                                    году</p>
+                                <div class="services__item-spn">
+                                    <span class="services__item-span">Автоматизация контрактов</span>
+                                    <span class="services__item-span">Читать 18 мин</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="services__item">
+                            <div class="services__center">
+                                <a class="services__item-story" href="#">История клиента</a>
+                                <h4 class="services__item-title">Sweco</h4>
+                                <a class="services__item-link" href="#">Прочитать всю историю</a>
+                            </div>
+                        </div>
+                        <div class="services__item-last">
+                            <img class="services__item-img" src="images/tabs/article2.jpg" alt="article two">
+                            <div class="services__item-body">
+                                <a class="services__item-article" href="#">Статья</a>
+                                <p class="services__item-name">Осваивайте цифровые продажи: как заключать сделки, когда
+                                    вас нет
+                                    разрешено пожать руку</p>
+                                <div class="services__item-spn">
+                                    <span class="services__item-sp">Продажи</span>
+                                    <span class="services__item-sp">Читать 18 мин</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- container  end-->
+            </div> <!-- services end -->
+
+
+            <section class="more">
+                <div class="container">
+                    <h3 class="more__title">Больше от Oneflow</h3>
+                    <div class="more__inner">
+                        <div class="more__inner-col">
+                            <a class="more__col-link" href="#">
+                                <img class="more__col-photo" src="images/tabs/rab1.jpg" alt="more photo">
+                            </a>
+                            <span class="more__sub-spn">Одна платформа. Все отделы</span>
+                            <a class="more__col-link" href="#">
+                                <h4 class="more__col-title">Создавайте, подписывайте и управляйте любым типом
+                                    соглашения, которое вы можете придумать
+                                    из</h4>
+                            </a>
+
+                            <a class="more__col-page" href="#">Узнать больше</a>
+                        </div>
+                        <div class="more__inner-col">
+                            <a class="more__col-link" href="#">
+                                <img class="more__col-photo" src="images/tabs/rab2.jpg" alt="more photo">
+                            </a>
+                            <span class="more__sub-spn">Одна платформа. Все отделы</span>
+                            <a class="more__col-link" href="#">
+                                <h4 class="more__col-title">Создавайте, подписывайте и управляйте любым типом
+                                    соглашения, которое вы можете придумать
+                                    из</h4>
+                            </a>
+
+                            <a class="more__col-page" href="#">Узнать больше</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__inner-adress">
+                        <a class="footer__inner-link" href="#">
+                            <img class="footer__inner-logo" src="images/header/logo.png" alt="footer logo">
+                        </a>
+                        <div class="footer__inner-blocks">
+                            <span class="footer__inner-adr">Штаб-квартира:</span>
+                            <span class="footer__inner-adr">Худиксвалльсгатан 8</span>
+                            <span class="footer__inner-adr">113 30 Stockholm, Sweden</span>
+                            <a class="footer__adress-tel" href="tel:+46851729770">+46 8 517 297 70</a>
+                        </div>
+                    </div>
+
+                    <ul class="footer__list">
+                        <h3 class="footer__list-title">Why Oneflow</h3>
+                        <li class="footer__item-list"><a class="footer__link-list" href="#">Обзор продукта</a></li>
+                        <li class="footer__item-list"><a class="footer__link-list" href="#">Смарт-контракты</a></li>
+                        <li class="footer__item-list"><a class="footer__link-list" href="#">Создан для
+                                масштабирования</a></li>
+                        <li class="footer__item-list"><a class="footer__link-list" href="#">Интеграции</a></li>
+                        <li class="footer__item-list"><a class="footer__link-list" href="#">Истории клиентов</a>
+                        </li>
+                    </ul>
+
+                    <ul class="footer__list">
+                        <h3 class="footer__list-title">Learn</h3>
+                        <li class="footer__item-list"><a class="footer__link-list" href="#">FAQ</a></li>
+                        <li class="footer__item-list"><a class="footer__link-list" href="#">Адаптация</a></li>
+                        <li class="footer__item-list"><a class="footer__link-list" href="#">Разработчики</a></li>
+                        <li class="footer__item-list"><a class="footer__link-list" href="#">Центр помощи</a></li>
+                        <li class="footer__item-list"><a class="footer__link-list" href="#">E-sign руководство</a></li>
+                    </ul>
+
+                    <ul class="footer__list">
+                        <h3 class="footer__list-title">Security</h3>
+                        <li class="footer__item-list"><a class="footer__link-list" href="#">Центр безопасности</a></li>
+                        <li class="footer__item-list"><a class="footer__link-list" href="#">Надежность</a></li>
+                        <li class="footer__item-list"><a class="footer__link-list" href="#">Согласие</a></li>
+                        <li class="footer__item-list"><a class="footer__link-list" href="#">Законность электронной
+                                подписи</a>
+                        </li>
+                        <li class="footer__item-list"><a class="footer__link-list" href="#">GDPR</a></li>
+                    </ul>
+
+                    <ul class="footer__list">
+                        <h3 class="footer__list-title">More Oneflow</h3>
+                        <li class="footer__item-list"><a class="footer__link-list" href="#">О нас</a></li>
+                        <li class="footer__item-list"><a class="footer__link-list" href="#">Ценообразование</a></li>
+                        <li class="footer__item-list"><a class="footer__link-list" href="#">Партнеры</a></li>
+                        <li class="footer__item-list"><a class="footer__link-list" href="#">Блог</a></li>
+                        <li class="footer__item-list"><a class="footer__link-list" href="#">Карьера</a></li>
+                        <li class="footer__item-list"><a class="footer__link-list" href="#">Контакт</a></li>
+                    </ul>
+
+                </div> <!-- footer__inner -->
+
+                <div class="footer__flow">
+                    <div class="footer__flow-content">
+                        <h3 class="footer__flow-title">Попасть в поток</h3>
+                        <p class="footer__flow-text">Отправляйте, отслеживайте и подписывайте свои контракты бесплатно
+                            на оставшуюся часть вашего
+                            жизнь. Никаких уловок.</p>
+                    </div>
+                    <a class="footer__flow-link" href="#">Получите Oneflow бесплатно</a>
+                </div>
+
+                <div class="footer__copyright">
+                    <a class="footer__copyrifgt-link" href="#">Авторизоваться</a>
+                    <a class="footer__copyrifgt-link" href="#">Конфиденциальность</a>
+                    <a class="footer__copyrifgt-link" href="#">Заявление о файлах cookie</a>
+                    <button class="footer__nav-btn">
+                        <img class="header__icon-globe" src="images/header/globe.svg" alt="globe">
+                    </button>
+                </div>
+
+            </div> <!-- container -->
+        </footer>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&family=Work+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header class="header">
+            <div class="container-fluid">
+                <div class="header__inner" id="header">
+                    <a class="header__logo" href="#">
+                        <img class="header__img" src="images/header/logo.png" alt="header_logo">
+                    </a>
+
+
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__item-why"><a class="header__why-link" href="#">Why Oneflow?</a></li>
+                            <li class="menu__item-list"><a class="menu__link-item" href="#">Learn</a></li>
+                            <li class="menu__item-list"><a class="menu__link-item" href="#">Pricing</a></li>
+                            <li class="menu__item-list"><a class="menu__link-item" href="#">About</a></li>
+                            <li class="menu__item-list"><a class="menu__link-item" href="#">Blog</a></li>
+                            <li class="header__navs">
+                                <a class="header__nav-link" href="#">Get a demo</a>
+                                <a class="header__nav-link" href="#">Log in</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <a class="header__nav-btn" href="translate.html">
+                        <img class="header__icon-globe" src="images/header/globe.svg" alt="globe">
+                    </a>
+
+                    <button class="burger-toggle">
+                        <span class="burger-icon"></span>
+                        <span class="burger-icon"></span>
+                        <span class="burger-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <section class="intro">
+                <div class="container">
+                    <div class="intro__content">
+                        <h1 class="intro__title">Work wonders</h1>
+                        <p class="intro__text">Be more effective with smart contracts that make work faster, and life
+                            easier.</p>
+
+                        <div class="intro__links">
+                            <a class="intro__link" href="#">Get Oneflow free</a>
+                            <a class="intro__link" href="#">Take a tour</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="company">
+                <div class="container">
+                    <div class="company__heading">
+                        <h2 class="company__title">
+                            Join these companies making business flow
+                        </h2>
+
+                        <div class="company__items">
+                            <a class="company__item" href="#">
+                                <img class="company__item-logo" src="images/company/company1.svg" alt="logo company">
+                            </a>
+                            <a class="company__item" href="#">
+                                <img class="company__item-logo" src="images/company/company2.svg" alt="logo company">
+                            </a>
+                            <a class="company__item" href="#">
+                                <img class="company__item-logo" src="images/company/company3.svg" alt="logo company">
+                            </a>
+                            <a class="company__item" href="#">
+                                <img class="company__item-logo" src="images/company/company4.svg" alt="logo company">
+                            </a>
+                            <a class="company__item" href="#">
+                                <img class="company__item-logo" src="images/company/company5.svg" alt="logo company">
+                            </a>
+                            <a class="company__item" href="#">
+                                <img class="company__item-logo" src="images/company/company6.svg" alt="logo company">
+                            </a>
+                            <a class="company__item" href="#">
+                                <img class="company__item-logo" src="images/company/company7.svg" alt="logo company">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="company__smart">
+                        <div class="company__smart-box">
+                            <h2 class="company__box-title">Turn signatures into smart contracts</h2>
+                            <p class="company__box-text">Experience true contract magic by automating the entire
+                                contract process — from creating to signing and managing.</p>
+                            <a class="company__box-link" href="#">Take our product tour</a>
+                        </div>
+                        <div class="company__smart-img">
+                            <img class="company__smart-photo" src="images/company/right-img.jpg" alt="right img">
+                        </div>
+                    </div>
+
+                    <div class="tabs">
+                        <div class="tabs__list">
+                            <button class="tabs__list-btn active" type="button" data-tab="#tab_1">Create</button>
+                            <button class="tabs__list-btn" type="button" data-tab="#tab_2">Collaborate</button>
+                            <button class="tabs__list-btn" type="button" data-tab="#tab_3">Sign</button>
+                            <button class="tabs__list-btn" type="button" data-tab="#tab_4">Manage</button>
+                            <button class="tabs__list-btn" type="button" data-tab="#tab_5">Analyze</button>
+                            <button class="tabs__list-btn" type="button" data-tab="#tab_6">Integrate</button>
+                        </div>
+
+                        <div class="tabs__content">
+                            <div class="tabs__item active" id="tab_1">
+                                <div class="tabs__item-content">
+                                    <div class="tabs__item-box">
+                                        <h2 class="tabs__item-title">Collaborate</h2>
+                                        <p class="tabs__item-text">Work together on one version in real-time. No hocus
+                                            pocus.
+                                        </p>
+                                        <ul class="tabs__items-list">
+                                            <li class="tabs__item-list">Edit live</li>
+                                            <li class="tabs__item-list">Make fields interactive</li>
+                                            <li class="tabs__item-list">Stay one step ahead</li>
+                                        </ul>
+                                        <a class="tabs__item-links" href="#">Learn more</a>
+                                    </div>
+                                    <div class="tabs__right-img">
+                                        <img class="tabs__right-photo" src="images/tabs/right.png" alt="rigth photo">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tabs__item" id="tab_2">
+                                <div class="tabs__item-content">
+                                    <div class="tabs__item-box">
+                                        <h2 class="tabs__item-title">Collaborate</h2>
+                                        <p class="tabs__item-text">Work together on one version in real-time. No hocus
+                                            pocus.
+                                        </p>
+                                        <ul class="tabs__items-list">
+                                            <li class="tabs__item-list">Edit live</li>
+                                            <li class="tabs__item-list">Make fields interactive</li>
+                                            <li class="tabs__item-list">Stay one step ahead</li>
+                                        </ul>
+                                        <a class="tabs__item-links" href="#">Learn more</a>
+                                    </div>
+                                    <div class="tabs__right-img">
+                                        <img class="tabs__right-photo" src="images/tabs/right.png" alt="rigth photo">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tabs__item" id="tab_3">
+                                <div class="tabs__item-content">
+                                    <div class="tabs__item-box">
+                                        <h2 class="tabs__item-title">Sign</h2>
+                                        <p class="tabs__item-text">Work together on one version in real-time. No hocus
+                                            pocus.
+                                        </p>
+                                        <ul class="tabs__items-list">
+                                            <li class="tabs__item-list">Edit live</li>
+                                            <li class="tabs__item-list">Make fields interactive</li>
+                                            <li class="tabs__item-list">Stay one step ahead</li>
+                                        </ul>
+                                        <a class="tabs__item-links" href="#">Learn more</a>
+                                    </div>
+                                    <div class="tabs__right-img">
+                                        <img class="tabs__right-photo" src="images/tabs/right.png" alt="rigth photo">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tabs__item" id="tab_4">
+                                <div class="tabs__item-content">
+                                    <div class="tabs__item-box">
+                                        <h2 class="tabs__item-title">Manage</h2>
+                                        <p class="tabs__item-text">Work together on one version in real-time. No hocus
+                                            pocus.
+                                        </p>
+                                        <ul class="tabs__items-list">
+                                            <li class="tabs__item-list">Edit live</li>
+                                            <li class="tabs__item-list">Make fields interactive</li>
+                                            <li class="tabs__item-list">Stay one step ahead</li>
+                                        </ul>
+                                        <a class="tabs__item-links" href="#">Learn more</a>
+                                    </div>
+                                    <div class="tabs__right-img">
+                                        <img class="tabs__right-photo" src="images/tabs/right.png" alt="rigth photo">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tabs__item" id="tab_5">
+                                <div class="tabs__item-content">
+                                    <div class="tabs__item-box">
+                                        <h2 class="tabs__item-title">Analyze</h2>
+                                        <p class="tabs__item-text">Work together on one version in real-time. No hocus
+                                            pocus.
+                                        </p>
+                                        <ul class="tabs__items-list">
+                                            <li class="tabs__item-list">Edit live</li>
+                                            <li class="tabs__item-list">Make fields interactive</li>
+                                            <li class="tabs__item-list">Stay one step ahead</li>
+                                        </ul>
+                                        <a class="tabs__item-links" href="#">Learn more</a>
+                                    </div>
+                                    <div class="tabs__right-img">
+                                        <img class="tabs__right-photo" src="images/tabs/right.png" alt="rigth photo">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tabs__item" id="tab_6">
+                                <div class="tabs__item-content">
+                                    <div class="tabs__item-box">
+                                        <h2 class="tabs__item-title">Integrate</h2>
+                                        <p class="tabs__item-text">Work together on one version in real-time. No hocus
+                                            pocus.
+                                        </p>
+                                        <ul class="tabs__items-list">
+                                            <li class="tabs__item-list">Edit live</li>
+                                            <li class="tabs__item-list">Make fields interactive</li>
+                                            <li class="tabs__item-list">Stay one step ahead</li>
+                                        </ul>
+                                        <a class="tabs__item-links" href="#">Learn more</a>
+                                    </div>
+                                    <div class="tabs__right-img">
+                                        <img class="tabs__right-photo" src="images/tabs/right.png" alt="rigth photo">
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <!-- tabs content end -->
+                    </div> <!-- tabs end -->
+
+                </div> <!-- container -->
+            </section>
+
+
+            <div class="fancybox">
+                <a class="fancybox__video" data-fancybox href="https://youtu.be/fwfjsDsMuz8">
+                    <img class="fancybox__play" src="images/fancy/play.svg" alt="icon play">
+                </a>
+            </div>
+
+
+            <section class="about">
+                <div class="container">
+                    <h2 class="about__title">The complete platform for smart contracts</h2>
+                    <div class="about__inner">
+                        <div class="about__inner-box">
+                            <img class="about__inner-photo" src="images/about/icon1.svg" alt="box icon">
+                            <h3 class="about__inner-title">Forget friction</h3>
+                            <p class="about__inner-text">Experience a truly digital contract process that makes
+                                creating, signing, and managing agreements quick, smooth, and
+                                effortless. Contracts without trickery.</p>
+                            <a class="about__inner-link" href="#">Take the tour</a>
+                        </div>
+
+                        <div class="about__inner-box">
+                            <img class="about__inner-photo" src="images/about/icon2.svg" alt="box icon">
+                            <h3 class="about__inner-title">Unleash data</h3>
+                            <p class="about__inner-text">Get faster and smarter with automated processes and intelligent
+                                insights that unlock the data inside your agreements.
+                                Leave behind the limitations of paper and PDFs. Just like that.</p>
+                            <a class="about__inner-link" href="#">Take the tour</a>
+                        </div>
+
+                        <div class="about__inner-box">
+                            <img class="about__inner-photo" src="images/about/icon3.svg" alt="box icon">
+                            <h3 class="about__inner-title">Take control</h3>
+                            <p class="about__inner-text">Experience a truly digital contract process that makes
+                                creating, signing, and managing agreements quick, smooth, and
+                                effortless. Contracts without trickery.</p>
+                            <a class="about__inner-link" href="#">Take the tour</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="sport">
+                <div class="container">
+                    <div class="sport__content">
+                        <h2 class="sport__content-title">Believe your eyes</h2>
+                        <p class="sport__content-text">Let us show you how to work smarter with contracts in Oneflow.
+                        </p>
+                        <a class="sport__content-link" href="#">Get a demo</a>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="slider">
+                <div class="container">
+                    <h2 class="slider__title">Don’t just take our word for it…</h2>
+
+                    <div class="swiper-container">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper swiper__wrapper-main ">
+                            <!-- Slides -->
+                            <div class="swiper-slide swiper__box-slide">
+                                <div class="swiper__box-body">
+                                    <p class="swiper__body-text">“With Oneflow, I’ve been able to reduce the time
+                                        spent on admin significantly. Every hour that I used to spend on admin,
+                                        can now be spent on selling and closing!”</p>
+                                    <a class="swiper__body-link" href="#">Read full story</a>
+                                    <a class="swiper__body-author" href="#">
+                                        <img class="swiper__body-photo" alt="photo" src="images/slider/icon1.svg">
+                                        <div class="swiper__body-name">
+                                            <p>Mattias Johnson</p>
+                                            <p>Key Account Manager</p>
+                                            <p>Sweco</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide swiper__box-slide">
+                                <div class="swiper__box-body">
+                                    <p class="swiper__body-text">“With Oneflow, I’ve been able to reduce the time
+                                        spent on admin significantly. Every hour that I used to spend on admin,
+                                        can now be spent on selling and closing!”</p>
+                                    <a class="swiper__body-link" href="#">Read full story</a>
+                                    <a class="swiper__body-author" href="#">
+                                        <img class="swiper__body-photo" alt="photo" src="images/slider/icon3.svg">
+                                        <div class="swiper__body-name">
+                                            <p>Mattias Johnson</p>
+                                            <p>Key Account Manager</p>
+                                            <p>Sweco</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide swiper__box-slide">
+                                <div class="swiper__box-body">
+                                    <p class="swiper__body-text">“With Oneflow, I’ve been able to reduce the time
+                                        spent on admin significantly. Every hour that I used to spend on admin,
+                                        can now be spent on selling and closing!”</p>
+                                    <a class="swiper__body-link" href="#">Read full story</a>
+                                    <a class="swiper__body-author" href="#">
+                                        <img class="swiper__body-photo" alt="photo" src="images/slider/icon2.svg">
+                                        <div class="swiper__body-name">
+                                            <p>Mattias Johnson</p>
+                                            <p>Key Account Manager</p>
+                                            <p>Sweco</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide swiper__box-slide">
+                                <div class="swiper__box-body">
+                                    <p class="swiper__body-text">“With Oneflow, I’ve been able to reduce the time
+                                        spent on admin significantly. Every hour that I used to spend on admin,
+                                        can now be spent on selling and closing!”</p>
+                                    <a class="swiper__body-link" href="#">Read full story</a>
+                                    <a class="swiper__body-author" href="#">
+                                        <img class="swiper__body-photo" alt="photo" src="images/slider/icon1.svg">
+                                        <div class="swiper__body-name">
+                                            <p>Mattias Johnson</p>
+                                            <p>Key Account Manager</p>
+                                            <p>Sweco</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide swiper__box-slide">
+                                <div class="swiper__box-body">
+                                    <p class="swiper__body-text">“With Oneflow, I’ve been able to reduce the time
+                                        spent on admin significantly. Every hour that I used to spend on admin,
+                                        can now be spent on selling and closing!”</p>
+                                    <a class="swiper__body-link" href="#">Read full story</a>
+                                    <a class="swiper__body-author" href="#">
+                                        <img class="swiper__body-photo" alt="photo" src="images/slider/icon2.svg">
+                                        <div class="swiper__body-name">
+                                            <p>Mattias Johnson</p>
+                                            <p>Key Account Manager</p>
+                                            <p>Sweco</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide swiper__box-slide">
+                                <div class="swiper__box-body">
+                                    <p class="swiper__body-text">“With Oneflow, I’ve been able to reduce the time
+                                        spent on admin significantly. Every hour that I used to spend on admin,
+                                        can now be spent on selling and closing!”</p>
+                                    <a class="swiper__body-link" href="#">Read full story</a>
+                                    <a class="swiper__body-author" href="#">
+                                        <img class="swiper__body-photo" alt="photo" src="images/slider/icon3.svg">
+                                        <div class="swiper__body-name">
+                                            <p>Mattias Johnson</p>
+                                            <p>Key Account Manager</p>
+                                            <p>Sweco</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+
+                        <!-- If we need scrollbar -->
+                        <div class="swiper-scrollbar"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="plan">
+                <div class="container">
+                    <div class="plan__inner">
+                        <div class="plan__col">
+                            <h2 class="plan__col-title">Seamless integrations</h2>
+                            <p class="plan__col-text">Integrate your favorite tools with your contract workflow and work
+                                wonders.</p>
+                            <a class="plan__col-link" href="#">View all integrations</a>
+                        </div>
+
+                        <div class="plan__cols">
+                            <div class="plan__col-logotips">
+                                <a class="plan__logo-link" href="#">
+                                    <img class="plan__logo-photo" src="images/grid/left-icon1.svg" alt="icon logo">
+                                </a>
+
+                                <a class="plan__logo-link" href="#">
+                                    <img class="plan__logo-photo" src="images/grid/left-icon2.svg" alt="icon logo">
+                                </a>
+
+                                <a class="plan__logo-link" href="#">
+                                    <img class="plan__logo-photo" src="images/grid/left-icon3.svg" alt="icon logo">
+                                </a>
+                            </div>
+
+                            <div class="plan__logotips-center">
+                                <a class="plan__logo-link" href="#">
+                                    <img class="plan__logo-photo" src="images/grid/center-icon1.svg" alt="icon logo">
+                                </a>
+
+                                <a class="plan__logo-link" href="#">
+                                    <img class="plan__logo-photo" src="images/grid/center-icon2.svg" alt="icon logo">
+                                </a>
+
+                                <a class="plan__logo-link" href="#">
+                                    <img class="plan__logo-photo" src="images/grid/center-icon3.svg" alt="icon logo">
+                                </a>
+
+                                <a class="plan__logo-link" href="#">
+                                    <img class="plan__logo-photo" src="images/grid/center-icon1.svg" alt="icon logo">
+                                </a>
+                            </div>
+
+                            <div class="plan__col-logotips">
+                                <a class="plan__logo-link" href="#">
+                                    <img class="plan__logo-photo" src="images/grid/right-icon1.svg" alt="icon logo">
+                                </a>
+
+                                <a class="plan__logo-link" href="#">
+                                    <img class="plan__logo-photo" src="images/grid/right-icon2.svg" alt="icon logo">
+                                </a>
+
+                                <a class="plan__logo-link" href="#">
+                                    <img class="plan__logo-photo" src="images/grid/right-icon3.svg" alt="icon logo">
+                                </a>
+                            </div>
+                        </div>
+                    </div> <!-- plan inner -->
+                </div> <!-- container -->
+            </section>
+
+            <section class="phone">
+                <div class="container">
+                    <div class="phone__heading">
+                        <h2 class="phone__heading-title">And for our next trick…</h2>
+                        <a class="phone__heading-link" href="#">Visit our blog</a>
+                    </div>
+
+                    <div class="phone__inner">
+                        <div class="phone__inner-left">
+                            <a class="phone__box-link" href="#">Article</a>
+                            <p class="phone__box-text">A Basic Guide on E-signatures and What Makes Them Legally Binding
+                            </p>
+                            <div class="phone__span-content">
+                                <span class="phone__heading-spn">E-signature</span>
+                                <span class="phone__heading-spn">11 min read</span>
+                            </div>
+                        </div>
+                        <div class="phone__inner-box">
+                            <img class="phone__inner-img" src="images/tabs/phone.png" alt="phone">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="services">
+                <div class="container">
+                    <div class="services__items">
+                        <div class="services__item">
+                            <img class="services__item-img" src="images/tabs/article.png" alt="article">
+                            <div class="services__item-body">
+                                <a class="services__item-guide" href="#">Guide</a>
+                                <p class="services__item-text">29 documents you can sign online in 2021</p>
+                                <div class="services__item-spn">
+                                    <span class="services__item-span">Contract automation</span>
+                                    <span class="services__item-span">18 min read</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="services__item">
+                            <div class="services__center">
+                                <a class="services__item-story" href="#">Customer Story</a>
+                                <h4 class="services__item-title">Sweco</h4>
+                                <a class="services__item-link" href="#">Read full story</a>
+                            </div>
+                        </div>
+                        <div class="services__item-last">
+                            <img class="services__item-img" src="images/tabs/article2.jpg" alt="article two">
+                            <div class="services__item-body">
+                                <a class="services__item-article" href="#">Article</a>
+                                <p class="services__item-name">Master digital sales: How to close deals when you’re not
+                                    allowed to shake hands</p>
+                                <div class="services__item-spn">
+                                    <span class="services__item-sp">Sales</span>
+                                    <span class="services__item-sp">18 min read</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- container  end-->
+            </div> <!-- services end -->
+
+
+            <section class="more">
+                <div class="container">
+                    <h3 class="more__title">More from Oneflow</h3>
+                    <div class="more__inner">
+                        <div class="more__inner-col">
+                            <a class="more__col-link" href="#">
+                                <img class="more__col-photo" src="images/tabs/rab1.jpg" alt="more photo">
+                            </a>
+                            <span class="more__sub-spn">One platform. All departments</span>
+                            <a class="more__col-link" href="#">
+                                <h4 class="more__col-title">Create, sign and manage any type of agreement you can think
+                                    of</h4>
+                            </a>
+
+                            <a class="more__col-page" href="#">Find out more</a>
+                        </div>
+                        <div class="more__inner-col">
+                            <a class="more__col-link" href="#">
+                                <img class="more__col-photo" src="images/tabs/rab2.jpg" alt="more photo">
+                            </a>
+                            <span class="more__sub-spn">One platform. All departments</span>
+                            <a class="more__col-link" href="#">
+                                <h4 class="more__col-title">Create, sign and manage any type of agreement you can think
+                                    of</h4>
+                            </a>
+
+                            <a class="more__col-page" href="#">Find out more</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__inner-adress">
+                        <a class="footer__inner-link" href="#">
+                            <img class="footer__inner-logo" src="images/header/logo.png" alt="footer logo">
+                        </a>
+                        <div class="footer__inner-blocks">
+                            <span class="footer__inner-adr">Headquarters:</span>
+                            <span class="footer__inner-adr">Hudiksvallsgatan 8</span>
+                            <span class="footer__inner-adr">113 30 Stockholm, Sweden</span>
+                            <a class="footer__adress-tel" href="tel:+46851729770">+46 8 517 297 70</a>
+                        </div>
+                    </div>
+
+                    <ul class="footer__list">
+                        <h3 class="footer__list-title">Why Oneflow</h3>
+                        <li class="footer__item-list"><a class="footer__link-list" href="#">Product tour</a></li>
+                        <li class="footer__item-list"><a class="footer__link-list" href="#">Smart contracts</a></li>
+                        <li class="footer__item-list"><a class="footer__link-list" href="#">Built for scale</a></li>
+                        <li class="footer__item-list"><a class="footer__link-list" href="#">Integrations</a></li>
+                        <li class="footer__item-list"><a class="footer__link-list" href="#">Customer stories</a>
+                        </li>
+                    </ul>
+
+                    <ul class="footer__list">
+                        <h3 class="footer__list-title">Learn</h3>
+                        <li class="footer__item-list"><a class="footer__link-list" href="#">FAQ</a></li>
+                        <li class="footer__item-list"><a class="footer__link-list" href="#">Onboarding</a></li>
+                        <li class="footer__item-list"><a class="footer__link-list" href="#">Developers</a></li>
+                        <li class="footer__item-list"><a class="footer__link-list" href="#">Help Center</a></li>
+                        <li class="footer__item-list"><a class="footer__link-list" href="#">E-sign guide</a></li>
+                    </ul>
+
+                    <ul class="footer__list">
+                        <h3 class="footer__list-title">Security</h3>
+                        <li class="footer__item-list"><a class="footer__link-list" href="#">Security Center</a></li>
+                        <li class="footer__item-list"><a class="footer__link-list" href="#">Reliability</a></li>
+                        <li class="footer__item-list"><a class="footer__link-list" href="#">Compliance</a></li>
+                        <li class="footer__item-list"><a class="footer__link-list" href="#">E-signing legality</a>
+                        </li>
+                        <li class="footer__item-list"><a class="footer__link-list" href="#">GDPR</a></li>
+                    </ul>
+
+                    <ul class="footer__list">
+                        <h3 class="footer__list-title">More Oneflow</h3>
+                        <li class="footer__item-list"><a class="footer__link-list" href="#">About us</a></li>
+                        <li class="footer__item-list"><a class="footer__link-list" href="#">Pricing</a></li>
+                        <li class="footer__item-list"><a class="footer__link-list" href="#">Partners</a></li>
+                        <li class="footer__item-list"><a class="footer__link-list" href="#">Blog</a></li>
+                        <li class="footer__item-list"><a class="footer__link-list" href="#">Careers</a></li>
+                        <li class="footer__item-list"><a class="footer__link-list" href="#">Contact</a></li>
+                    </ul>
+
+                </div> <!-- footer__inner -->
+
+                <div class="footer__flow">
+                    <div class="footer__flow-content">
+                        <h3 class="footer__flow-title">Get in the flow</h3>
+                        <p class="footer__flow-text">Send, track and sign your contracts free for the rest of your
+                            life. No trickery.</p>
+                    </div>
+                    <a class="footer__flow-link" href="#">Get Oneflow free</a>
+                </div>
+
+                <div class="footer__copyright">
+                    <a class="footer__copyrifgt-link" href="#">Login</a>
+                    <a class="footer__copyrifgt-link" href="#">Privacy</a>
+                    <a class="footer__copyrifgt-link" href="#">Cookie statement</a>
+                    <button class="footer__nav-btn">
+                        <img class="header__icon-globe" src="images/header/globe.svg" alt="globe">
+                    </button>
+                </div>
+
+            </div> <!-- container -->
+        </footer>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>
